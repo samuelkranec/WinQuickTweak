@@ -20,6 +20,14 @@ The script modifies only built-in Windows settings and does not require any thir
 - Windows PowerShell 5.1 or PowerShell 7+
 - Administrator privileges
 
+## Direct Execution
+
+The script can be executed directly from GitHub without cloning the repository.
+
+```powershell
+irm https://raw.githubusercontent.com/samuelkranec/WinQuickTweak/main/WinQuickTweak.ps1 | iex
+```
+
 ## Usage
 
 Clone the repository:
@@ -67,14 +75,6 @@ Run multiple tweaks:
 
 ```powershell
 .\WinQuickTweak.ps1 -DisableBing -DisableWidgets -HighPerf
-```
-
-## Direct Execution
-
-The script can be executed directly from GitHub without cloning the repository.
-
-```powershell
-irm https://raw.githubusercontent.com/samuelkranec/WinQuickTweak/main/WinQuickTweak.ps1 | iex
 ```
 
 ## What the Script Changes
